@@ -21,12 +21,12 @@ for i in count:
         print("Quetion",count[i],"/n",quetions[i],"/n")
         print("javab dene k liye niche diye gai inn 4 options me se ek chuniye/n")
         contestent_choice = input("A.",correct_answers[i],"/t/t/t/tB.",not_so_correct_answers[i],"/nC.",not_so_correct_answers[i+3],"/t/t/tD.",not_so_correct_answers[i+6],"/n")
-            if(contestent_choice == A):
-                print("aap ka javab sahi hay/n")
-                sum = sum + 1000
-                print("aap ne ",sum,"ruppe jeete hay/n")
-            else:
-                print("aap k javab galat hay/n")     
+        if(contestent_choice == A):
+            print("aap ka javab sahi hay/n")
+            sum = sum + 1000
+            print("aap ne ",sum,"ruppe jeete hay/n")
+        else:
+            print("aap k javab galat hay/n")     
     else:
         print("Hume bahot dukh he ki aap agge nahi khelna chahate/n")
 print("apne kul ",sum ,"rakam jitte hay")
