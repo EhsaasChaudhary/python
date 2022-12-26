@@ -16,11 +16,11 @@ else:
 
 for i in count:
     res = input("kya aap tayar hay", count[i], "sawal ka javab dene k liye (yes/no) : /n")
-    if(res = yes):
+    if(res == yes):
         print("chaliye saru karte hay/n")
         print("Quetion",count[i],"/n",quetions[i],"/n")
         print("javab dene k liye niche diye gai inn 4 options me se ek chuniye/n")
-        contestent_choice = input("A.",correct_answers[i],"/t/t/t/tB.",not_so_correct_answers[i],"/nC.",not_so_correct_answers[i+3],"/t/t/tD.",not_so_correct_answers[i+6]"/n")
+        contestent_choice = input("A.",correct_answers[i],"/t/t/t/tB.",not_so_correct_answers[i],"/nC.",not_so_correct_answers[i+3],"/t/t/tD.",not_so_correct_answers[i+6],"/n")
             if(contestent_choice == A):
                 print("aap ka javab sahi hay/n")
                 sum = sum + 1000
